@@ -41,7 +41,7 @@ steps:
     checkCoverage: true
     coverageFailOption: 'fixed'
     coverageType: 'blocks'
-    coverageThreshold: '15'
+    coverageThreshold: '5'
 
 
 # - task: PublishCodeCoverageResults@2

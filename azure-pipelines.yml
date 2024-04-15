@@ -68,7 +68,7 @@ steps:
     script: |
         $uri = "https://jsonplaceholder.typicode.com/posts/1"
         $response = Invoke-RestMethod -Uri $uri -Method Get
-        Write-Host $responce
+        echo $responce
     
 
 # - task: CopyFiles@2
